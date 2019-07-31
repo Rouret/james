@@ -1,0 +1,52 @@
+/* © ROOTDOOR 2019
+
+     ██╗ █████╗ ███╗   ███╗███████╗███████╗
+     ██║██╔══██╗████╗ ████║██╔════╝██╔════╝
+     ██║███████║██╔████╔██║█████╗  ███████╗
+██   ██║██╔══██║██║╚██╔╝██║██╔══╝  ╚════██║
+╚█████╔╝██║  ██║██║ ╚═╝ ██║███████╗███████║
+ ╚════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝
+*/
+
+*{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+	text-decoration: none;
+}
+section{
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	/*background: black;*/
+}
+.ligne{
+	display: flex;
+	flex-direction: row;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+}
+.box{
+	border:1px black solid;
+	width: 30px;
+	height: 30px;
+}
+.mur{
+	background: red;
+}
+.bot{
+	background: blue;
+}
+
+/* © ROOTDOOR 2019
+
+     ██╗ █████╗ ███╗   ███╗███████╗███████╗
+     ██║██╔══██╗████╗ ████║██╔════╝██╔════╝
+     ██║███████║██╔████╔██║█████╗  ███████╗
+██   ██║██╔══██║██║╚██╔╝██║██╔══╝  ╚════██║
+╚█████╔╝██║  ██║██║ ╚═╝ ██║███████╗███████║
+ ╚════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝*/
